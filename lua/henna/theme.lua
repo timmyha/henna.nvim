@@ -74,7 +74,7 @@ M.base = {
 
     NonText = { fg = colors.gray2 },
     Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
-    NormalFloat = { bg = colors.dark },
+    NormalFloat = { bg = colors.bg },
     NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
     Number = { fg = colors.boolean },
 
