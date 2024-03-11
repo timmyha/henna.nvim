@@ -125,7 +125,7 @@ M.base = {
 
     Variable = { fg = colors.white },
     VertSplit = { fg = colors.vsplit_bg },
-    Visual = { fg = "NONE", bg = colors.fg, style = "bold" },
+    Visual = { fg = colors.bg, bg = colors.fg, style = "bold" },
     VisualNOS = { fg = colors.selection_fg, bg = colors.selection_bg },
 
     WarningMsg = { fg = colors.orange_wr, bg = colors.none },
