@@ -568,7 +568,7 @@ M.plugins = {
     ["@method.call"] = { fg = colors.green_func },
     ["@namespace"] = { fg = colors.blue_type },
     ["@number"] = { fg = colors.boolean },
-    ["@operator"] = { fg = colors.fg },
+    ["@operator"] = { fg = colors.pink },
     ["@parameter"] = { fg = colors.white },
     ["@parameter.reference"] = { fg = colors.white },
     ["@preproc"] = { fg = colors.red_key_w },
