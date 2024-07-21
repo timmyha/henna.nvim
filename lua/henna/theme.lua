@@ -146,6 +146,11 @@ M.base = {
 	  RenderMarkdownH4Bg = { fg = colors.fg, bg = colors.yellow },
 	  RenderMarkdownH5Bg = { fg = colors.fg, bg = colors.gray },
 	  RenderMarkdownH6Bg = { fg = colors.bg, bg = colors.fg },
+	  RenderMarkdownCode = { fg = colors.fg, bg = colors.context },
+	  RenderMarkdownBullet = { fg = colors.fg, bg = colors.pink },
+	  RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
+	  RenderMarkdownUnchecked = { fg = colors.fg, bg = colors.gray },
+	  RenderMarkdownChecked = { fg = colors.fg, bg = colors.yellow },
 
 
 
