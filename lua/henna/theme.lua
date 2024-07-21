@@ -149,8 +149,8 @@ M.base = {
 	  RenderMarkdownCode = { bg = colors.vsplit_bg },
 	  RenderMarkdownBullet = { fg = colors.pink },
 	  RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
-	  RenderMarkdownUnchecked = { fg = colors.fg, bg = colors.gray },
-	  RenderMarkdownChecked = { fg = colors.fg, bg = colors.yellow },
+	  RenderMarkdownUnchecked = { fg = colors.pink },
+	  RenderMarkdownChecked = { fg = colors.yellow },
 
 
 
