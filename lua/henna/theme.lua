@@ -32,9 +32,9 @@ M.base = {
     Debug = { fg = colors.fg },
     Define = { fg = colors.pink },
     Delimiter = { fg = colors.gray_punc },
-    DiffAdd = { fg = colors.fg, bg = colors.pink },
+    DiffAdd = { fg = colors.green_func },
     DiffAdded = { fg = colors.green_func },
-    DiffChange = { fg = colors.green_func },
+    DiffChange = { fg = colors.yellow },
     DiffDelete = { fg = colors.red_key_w },
     DiffRemoved = { fg = colors.red_key_w },
     DiffText = { fg = colors.white1 },
@@ -138,8 +138,15 @@ M.base = {
 		['@markup.heading.2.markdown'] = {bg = colors.green, fg = colors.fg},
 		['@markup.heading.3.markdown'] = {bg = colors.orange, fg = colors.fg},
 		['@markup.heading.4.markdown'] = {bg = colors.yellow, fg = colors.fg},
-		['@markup.heading.5.markdown'] = {bg = colors.grey, fg = colors.fg},
+		['@markup.heading.5.markdown'] = {bg = colors.gray, fg = colors.fg},
 		['@markup.heading.6.markdown'] = {bg = colors.fg, fg = colors.bg},
+	  RenderMarkdownH1Bg = { fg = colors.fg, bg = colors.pink },
+	  RenderMarkdownH2Bg = { fg = colors.fg, bg = colors.green },
+	  RenderMarkdownH3Bg = { fg = colors.fg, bg = colors.orange },
+	  RenderMarkdownH4Bg = { fg = colors.fg, bg = colors.yellow },
+	  RenderMarkdownH5Bg = { fg = colors.fg, bg = colors.gray },
+	  RenderMarkdownH6Bg = { fg = colors.bg, bg = colors.fg },
+
 
 
 
