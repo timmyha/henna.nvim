@@ -161,6 +161,15 @@ M.base = {
     markdownLinkDelimiter = { fg = colors.gray2 },
     markdownOrderedListMarker = { fg = colors.red_key_w },
 
+    ['@markup.heading.1.markdown'] = {bg = colors.pink, fg = colors.fg},
+		['@markup.heading.2.markdown'] = {bg = colors.green, fg = colors.fg},
+		['@markup.heading.3.markdown'] = {bg = colors.orange, fg = colors.fg},
+		['@markup.heading.4.markdown'] = {bg = colors.yellow, fg = colors.fg},
+		['@markup.heading.5.markdown'] = {bg = colors.grey, fg = colors.fg},
+		['@markup.heading.6.markdown'] = {bg = colors.fg, fg = colors.bg},
+
+
+
     -----------------------------------------
     --        end Editors settings
     -----------------------------------------
