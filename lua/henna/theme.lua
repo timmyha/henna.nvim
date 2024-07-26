@@ -60,7 +60,7 @@ M.base = {
     Keyword = { fg = colors.red_key_w },
 
     Label = { fg = colors.red_key_w },
-    LineNr = { fg = colors.line_fg, bg = colors.line_bg },
+    LineNr = { fg = colors.line_fg, config.transparent_background and "NONE" or colors.line_bg },
 
     Macro = { fg = colors.blue_type },
     MatchParen = { fg = colors.pink, bg = colors.bg },
