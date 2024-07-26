@@ -92,7 +92,7 @@ M.base = {
     Repeat = { fg = colors.red_key_w },
 
     Search = { fg = colors.bg, bg = colors.pink },
-    SignColumn = { bg = colors.line_bg },
+    SignColumn = { bg = config.transparent_background and "NONE" or colors.line_bg },
     Special = { fg = colors.gray_punc },
     SpecialChar = { fg = colors.red_key_w },
     SpecialComment = { fg = colors.pink },
