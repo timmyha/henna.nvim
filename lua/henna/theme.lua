@@ -288,10 +288,10 @@ M.plugins = {
     DiagnosticVirtualTextWarn = { fg = colors.orange_wr },
     DiagnosticWarn = { fg = colors.orange_wr },
 
-    DiagnosticFloatingError = { fg = colors.red_err, bg = colors.bg },
-    DiagnosticFloatingHint = { fg = colors.blue_type, bg = colors.bg },
-    DiagnosticFloatingInfo = { fg = colors.yellow, bg = colors.bg },
-    DiagnosticFloatingWarn = { fg = colors.orange_wr, bg = colors.bg },
+    DiagnosticFloatingError = { fg = colors.red_err, bg = colors.transparent_background and "NONE" or colors.bg },
+    DiagnosticFloatingHint = { fg = colors.blue_type, bg = colors.transparent_background and "NONE" or colors.bg },
+    DiagnosticFloatingInfo = { fg = colors.yellow, bg = colors.transparent_background and "NONE" or colors.bg },
+    DiagnosticFloatingWarn = { fg = colors.orange_wr, bg = colors.transparent_background and "NONE" or colors.bg },
 
     DiagnosticSignError = { fg = colors.red_err, bg = colors.line_bg },
     DiagnosticSignHint = { fg = colors.blue_type, bg = colors.line_bg },
