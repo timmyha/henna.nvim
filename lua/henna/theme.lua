@@ -130,7 +130,7 @@ M.base = {
 
     WarningMsg = { fg = colors.orange_wr, bg = colors.none },
     Whitespace = { fg = colors.non_text },
-    WildMenu = { fg = colors.fg, bg = colors.bg },
+    WildMenu = { fg = colors.fg, bg = colors.vsplit_bg },
     lCursor = { fg = colors.bg, bg = colors.pink },
 
 
