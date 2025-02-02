@@ -79,7 +79,7 @@ M.base = {
     Number = { fg = colors.boolean },
 
     Operator = { fg = colors.red_key_w },
-    Pmenu = { fg = colors.bg, bg = colors.bg },
+    Pmenu = { fg = colors.fg, bg = colors.vsplit_bg },
     PmenuSbar = { bg = colors.gray },
     PmenuSel = { fg = colors.fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
@@ -130,7 +130,7 @@ M.base = {
 
     WarningMsg = { fg = colors.orange_wr, bg = colors.none },
     Whitespace = { fg = colors.non_text },
-    WildMenu = { fg = colors.fg, bg = colors.pink },
+    WildMenu = { fg = colors.fg, bg = colors.vsplit_bg },
     lCursor = { fg = colors.bg, bg = colors.pink },
 
 
