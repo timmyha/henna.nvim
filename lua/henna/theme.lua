@@ -83,8 +83,8 @@ M.base = {
     PmenuSbar = { bg = colors.gray },
     PmenuSel = { fg = colors.fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
-    PmenuMatch = { fg = colors.pink, bg = colors.yellow },
-    PmenuMatchSel = { fg = colors.pink, bg = colors.bg },
+    PmenuMatch = { fg = colors.bg, bg = colors.fg },
+    PmenuMatchSel = { fg = colors.fg, bg = colors.bg },
     PreCondit = { fg = colors.blue_type },
     PreProc = { fg = colors.blue_type },
 
