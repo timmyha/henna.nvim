@@ -79,7 +79,7 @@ M.base = {
     Number = { fg = colors.boolean },
 
     Operator = { fg = colors.red_key_w },
-    Pmenu = { fg = colors.fg, bg = colors.yellow },
+    Pmenu = { fg = colors.fg, bg = "#10272e" },
     PmenuSbar = { bg = colors.gray },
     PmenuSel = { fg = colors.fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
