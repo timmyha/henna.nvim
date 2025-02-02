@@ -81,7 +81,7 @@ M.base = {
     Operator = { fg = colors.red_key_w },
     Pmenu = { fg = colors.white1, bg = colors.black },
     PmenuSbar = { bg = colors.gray },
-    PmenuSel = { fg = colors.line_fg, bg = colors.black },
+    PmenuSel = { fg = colors.line_fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
     PreCondit = { fg = colors.blue_type },
     PreProc = { fg = colors.blue_type },
