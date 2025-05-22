@@ -590,7 +590,7 @@ M.plugins = {
     ["@type.qualifier"] = { fg = colors.red_key_w },
     ["@text.uri"] = { fg = colors.yellow, style = "underline" },
     ["@text.underline"] = { style = "underline" },
-    ["@variable"] = { fg = colors.red_err },
+    ["@variable"] = { fg = colors.fg },
     ["@variable.builtin"] = { fg = colors.red_key_w },
     ["@define"] = { fg = colors.red_key_w },
     ["@keyword.conditional.ternary.javascript"] = { fg = colors.fg },
