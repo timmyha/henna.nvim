@@ -79,7 +79,7 @@ M.base = {
     Number = { fg = colors.boolean },
 
     Operator = { fg = colors.red_key_w },
-    Pmenu = { fg = colors.vsplit_bg, bg = colors.vsplit_bg},
+    Pmenu = { fg = colors.fg, bg = colors.vsplit_bg},
     PmenuSbar = { bg = colors.gray },
     PmenuSel = { fg = colors.fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
@@ -155,6 +155,8 @@ M.base = {
 	  RenderMarkdownChecked = { fg = colors.yellow },
 
 
+  BlinkCmpMenu = { fg = colors.fg, bg = colors.vsplit_bg },
+  BlinkCmpMenuBorder = { fg = colors.vsplit_bg, bg = colors.vsplit_bg },
 
 
     -----------------------------------------
