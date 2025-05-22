@@ -207,7 +207,7 @@ M.plugins = {
     -----------------------------------------
     CmpItemAbbrDeprecated = { fg = colors.comment },
     CmpDocumentation = { fg = colors.fg },
-    CmpDocumentationBorder = { fg = colors.gray2 },
+    CmpDocumentationBorder = { fg = colors.vsplit_bg },
     CmpItemAbbr = { fg = colors.fg },
     CmpItemAbbrMatch = { fg = colors.blue_type },
     CmpItemAbbrMatchFuzzy = { fg = colors.blue_type },
@@ -459,7 +459,7 @@ M.plugins = {
     -----------------------------------------
     --    telescope: github.com/nvim-telescope/telescope.nvim
     -----------------------------------------
-    TelescopeBorder = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
+    TelescopeBorder = { fg = colors.vsplit_bg, bg = config.transparent_background and "NONE" or colors.vsplit_bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
     TelescopeSelection = { fg = colors.line_fg, bg = colors.black },
