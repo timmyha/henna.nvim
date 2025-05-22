@@ -22,7 +22,7 @@ return {
   selection_fg     = "#495163",
   vsplit_fg        = "#cccccc",
   vsplit_bg        = "#21250A",
-  visual_select_bg = "#272932",
+  visual_select_bg = "#21250A",
 
   red_key_w  = "#19a48a",
   red_err    = "#c84639",
