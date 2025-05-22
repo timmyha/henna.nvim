@@ -155,8 +155,10 @@ M.base = {
 	  RenderMarkdownChecked = { fg = colors.yellow },
 
 
-  BlinkCmpMenu = { fg = colors.fg, bg = colors.vsplit_bg },
+  BlinkCmpMenu = { fg = colors.fg, bg = colors.visual_select_bg },
   BlinkCmpMenuBorder = { fg = colors.visual_select_bg, bg = colors.visual_select_bg },
+  BlinkCmpDoc = { fg = colors.fg, bg = colors.visual_select_bg },
+  BlinkCmpDocBorder = { fg = colors.visual_select_bg, bg = colors.visual_select_bg },
 
 
     -----------------------------------------
@@ -268,9 +270,9 @@ M.plugins = {
     -----------------------------------------
     -- gitgutter: github.com/airblade/vim-gitgutter
     -----------------------------------------
-    GitGutterAdd = { fg = colors.diff_add },
-    GitGutterChange = { fg = colors.diff_change },
-    GitGutterDelete = { fg = colors.red_err },
+    GitGutterAdd = { fg = colors.diff_add, bg = colors.bg },
+    GitGutterChange = { fg = colors.diff_change, bg = colors.bg },
+    GitGutterDelete = { fg = colors.red_err, bg = colors.bg },
     -----------------------------------------
 
     -----------------------------------------
