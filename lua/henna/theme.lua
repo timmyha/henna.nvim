@@ -156,7 +156,7 @@ M.base = {
 
 
   BlinkCmpMenu = { fg = colors.fg, bg = colors.vsplit_bg },
-  BlinkCmpMenuBorder = { fg = colors.vsplit_bg, bg = colors.vsplit_bg },
+  BlinkCmpMenuBorder = { fg = colors.visual_select_bg, bg = colors.visual_select_bg },
 
 
     -----------------------------------------
