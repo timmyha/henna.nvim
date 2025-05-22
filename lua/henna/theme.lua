@@ -47,7 +47,7 @@ M.base = {
     Exception = { fg = colors.white },
 
     Float = { fg = colors.orange },
-    FloatBorder = { fg = colors.gray2, bg = "NONE" },
+    FloatBorder = { fg = "NONE", bg = "NONE" },
     FoldColumn = { fg = colors.line_fg, bg = colors.bg },
     Folded = { fg = colors.white, bg = colors.gray },
     Function = { fg = colors.green_func },
