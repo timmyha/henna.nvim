@@ -47,7 +47,7 @@ M.base = {
     Exception = { fg = colors.white },
 
     Float = { fg = colors.orange },
-    FloatBorder = { fg = colors.vsplit_bg, bg = "NONE" },
+    FloatBorder = { fg = colors.code, bg = "NONE" },
     FoldColumn = { fg = colors.line_fg, bg = colors.bg },
     Folded = { fg = colors.white, bg = colors.gray },
     Function = { fg = colors.green_func },
@@ -79,7 +79,7 @@ M.base = {
     Number = { fg = colors.boolean },
 
     Operator = { fg = colors.red_key_w },
-    Pmenu = { fg = colors.fg, bg = colors.vsplit_bg},
+    Pmenu = { fg = colors.fg, bg = colors.code },
     PmenuSbar = { bg = colors.gray },
     PmenuSel = { fg = colors.fg, bg = colors.bg },
     PmenuThumb = { bg = colors.black },
@@ -155,10 +155,10 @@ M.base = {
 	  RenderMarkdownChecked = { fg = colors.yellow },
 
 
-  BlinkCmpMenu = { fg = colors.fg, bg = colors.visual_select_bg },
-  BlinkCmpMenuBorder = { fg = colors.visual_select_bg, bg = colors.visual_select_bg },
-  BlinkCmpDoc = { fg = colors.fg, bg = colors.visual_select_bg },
-  BlinkCmpDocBorder = { fg = colors.visual_select_bg, bg = colors.visual_select_bg },
+  BlinkCmpMenu = { fg = colors.fg, bg = colors.code },
+  BlinkCmpMenuBorder = { fg = colors.code, bg = colors.code },
+  BlinkCmpDoc = { fg = colors.fg, bg = colors.code },
+  BlinkCmpDocBorder = { fg = colors.code, bg = colors.code },
 
 
     -----------------------------------------
@@ -211,7 +211,7 @@ M.plugins = {
     -----------------------------------------
     CmpItemAbbrDeprecated = { fg = colors.comment },
     CmpDocumentation = { fg = colors.fg },
-    CmpDocumentationBorder = { fg = colors.vsplit_bg },
+    CmpDocumentationBorder = { fg = colors.code },
     CmpItemAbbr = { fg = colors.fg },
     CmpItemAbbrMatch = { fg = colors.blue_type },
     CmpItemAbbrMatchFuzzy = { fg = colors.blue_type },
@@ -463,7 +463,7 @@ M.plugins = {
     -----------------------------------------
     --    telescope: github.com/nvim-telescope/telescope.nvim
     -----------------------------------------
-    TelescopeBorder = { fg = colors.vsplit_bg, bg = config.transparent_background and "NONE" or colors.vsplit_bg },
+    TelescopeBorder = { fg = colors.code, bg = config.transparent_background and "NONE" or colors.vsplit_bg },
     TelescopeMatching = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
     TelescopeSelection = { fg = colors.line_fg, bg = colors.black },
