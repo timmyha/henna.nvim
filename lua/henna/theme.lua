@@ -74,7 +74,7 @@ M.base = {
 
     NonText = { fg = colors.gray2 },
     Normal = { fg = colors.fg, bg = config.transparent_background and "NONE" or colors.bg },
-    NormalFloat = { bg = colors.bg },
+    NormalFloat = { bg = colors.vsplit_bg },
     NormalNC = { fg = colors.white, bg = config.transparent_background and "NONE" or colors.bg },
     Number = { fg = colors.boolean },
 
@@ -135,32 +135,29 @@ M.base = {
     WildMenu = { fg = colors.fg, bg = colors.vsplit_bg },
     lCursor = { fg = colors.bg, bg = colors.pink },
 
+    ["@markup.heading.1.markdown"] = { bg = colors.pink, fg = colors.fg },
+    ["@markup.heading.2.markdown"] = { bg = colors.green, fg = colors.fg },
+    ["@markup.heading.3.markdown"] = { bg = colors.orange, fg = colors.fg },
+    ["@markup.heading.4.markdown"] = { bg = colors.yellow, fg = colors.fg },
+    ["@markup.heading.5.markdown"] = { bg = colors.gray, fg = colors.fg },
+    ["@markup.heading.6.markdown"] = { bg = colors.fg, fg = colors.bg },
+    RenderMarkdownH1Bg = { fg = colors.fg, bg = colors.pink },
+    RenderMarkdownH2Bg = { fg = colors.fg, bg = colors.green },
+    RenderMarkdownH3Bg = { fg = colors.fg, bg = colors.orange },
+    RenderMarkdownH4Bg = { fg = colors.fg, bg = colors.yellow },
+    RenderMarkdownH5Bg = { fg = colors.fg, bg = colors.gray },
+    RenderMarkdownH6Bg = { fg = colors.bg, bg = colors.fg },
+    RenderMarkdownCode = { bg = colors.code },
+    RenderMarkdownBullet = { fg = colors.pink },
+    RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
+    RenderMarkdownUnchecked = { fg = colors.pink },
+    RenderMarkdownChecked = { fg = colors.yellow },
 
-    ['@markup.heading.1.markdown'] = {bg = colors.pink, fg = colors.fg},
-		['@markup.heading.2.markdown'] = {bg = colors.green, fg = colors.fg},
-		['@markup.heading.3.markdown'] = {bg = colors.orange, fg = colors.fg},
-		['@markup.heading.4.markdown'] = {bg = colors.yellow, fg = colors.fg},
-		['@markup.heading.5.markdown'] = {bg = colors.gray, fg = colors.fg},
-		['@markup.heading.6.markdown'] = {bg = colors.fg, fg = colors.bg},
-	  RenderMarkdownH1Bg = { fg = colors.fg, bg = colors.pink },
-	  RenderMarkdownH2Bg = { fg = colors.fg, bg = colors.green },
-	  RenderMarkdownH3Bg = { fg = colors.fg, bg = colors.orange },
-	  RenderMarkdownH4Bg = { fg = colors.fg, bg = colors.yellow },
-	  RenderMarkdownH5Bg = { fg = colors.fg, bg = colors.gray },
-	  RenderMarkdownH6Bg = { fg = colors.bg, bg = colors.fg },
-	  RenderMarkdownCode = { bg = colors.code },
-	  RenderMarkdownBullet = { fg = colors.pink },
-	  RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
-	  RenderMarkdownUnchecked = { fg = colors.pink },
-	  RenderMarkdownChecked = { fg = colors.yellow },
-
-
-  BlinkCmpMenu = { fg = colors.fg, bg = colors.code },
-  BlinkCmpMenuBorder = { fg = colors.code, bg = colors.code },
-  BlinkCmpDoc = { fg = colors.fg, bg = colors.code },
-  BlinkCmpDocBorder = { fg = colors.code, bg = colors.code },
-  FzfLuaBorder = { fg = colors.vsplit_bg  },
-
+    BlinkCmpMenu = { fg = colors.fg, bg = colors.code },
+    BlinkCmpMenuBorder = { fg = colors.code, bg = colors.code },
+    BlinkCmpDoc = { fg = colors.fg, bg = colors.code },
+    BlinkCmpDocBorder = { fg = colors.code, bg = colors.code },
+    FzfLuaBorder = { fg = colors.vsplit_bg },
 
     -----------------------------------------
     --        end Editors settings
