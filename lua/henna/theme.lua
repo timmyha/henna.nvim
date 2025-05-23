@@ -159,7 +159,7 @@ M.base = {
   BlinkCmpMenuBorder = { fg = colors.code, bg = colors.code },
   BlinkCmpDoc = { fg = colors.fg, bg = colors.code },
   BlinkCmpDocBorder = { fg = colors.code, bg = colors.code },
-  FzfLuaBorder = { fg = colors.vsplit_by  },
+  FzfLuaBorder = { fg = colors.vsplit_bg  },
 
 
     -----------------------------------------
