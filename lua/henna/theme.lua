@@ -162,6 +162,9 @@ M.base = {
         fg = colors.vsplit_bg,
         bg = colors.vsplit_bg,
     },
+    SnacksPickerBoxTitle = { bg = colors.red_err },
+    SnacksPickerPreviewTitle = { fg = colors.yellow },
+    AvanteTitle = { fg = colors.orange },
 
     -----------------------------------------
     --        end Editors settings
