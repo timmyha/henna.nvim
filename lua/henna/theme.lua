@@ -151,7 +151,7 @@ M.base = {
     RenderMarkdownH5Bg = { fg = colors.gray, bg = colors.bg, style = "bold" },
     RenderMarkdownH6Bg = { fg = colors.diff_change, bg = colors.bg, style = "bold" },
     RenderMarkdownCode = { bg = colors.code },
-    RenderMarkdownInlineCode = { bg = colors.code, fg = colors.yellow },
+    RenderMarkdownCodeInline = { bg = colors.code, fg = colors.yellow },
     RenderMarkdownBullet = { fg = colors.pink },
     RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
     RenderMarkdownUnchecked = { fg = colors.pink },
