@@ -170,6 +170,8 @@ M.base = {
     SnacksPickerPreviewTitle = { fg = colors.yellow },
     AvanteTitle = { bg = colors.visual_select_bg, fg = colors.visual_select_bg },
     AvanteReversedTitle = { bg = colors.visual_select_bg, fg = colors.visual_select_bg },
+    NavicText = { fg = colors.fg },
+    NavicSeparator = { fg = colors.gray },
 
     -----------------------------------------
     --        end Editors settings
