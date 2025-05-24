@@ -159,7 +159,8 @@ M.base = {
     BlinkCmpDocBorder = { fg = colors.code, bg = colors.code },
     FzfLuaBorder = { fg = colors.vsplit_bg },
     SnacksPickerBorder = {
-      link = "FloatBorder",
+        fg = colors.vsplit_bg,
+        bg = colors.vsplit_bg,
     },
 
     -----------------------------------------
