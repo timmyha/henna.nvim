@@ -164,7 +164,8 @@ M.base = {
     },
     SnacksPickerBoxTitle = { bg = colors.red_err },
     SnacksPickerPreviewTitle = { fg = colors.yellow },
-    AvanteTitle = { fg = colors.orange },
+    AvanteTitle = { bg = colors.visual_select_bg, fg = colors.visual_select_bg },
+    AvanteReversedTitle = { bg = colors.visual_select_bg, fg = colors.visual_select_bg },
 
     -----------------------------------------
     --        end Editors settings
