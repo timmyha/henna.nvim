@@ -390,9 +390,9 @@ M.plugins = {
     LspDiagnosticsUnderlineWarning = { style = "underline" }, -- Deprecated
     LspDiagnosticsVirtualTextWarning = { fg = colors.orange_wr }, -- Deprecated
     LspDiagnosticsWarning = { fg = colors.orange_wr }, -- Deprecated
-    LspReferenceRead = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
-    LspReferenceText = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
-    LspReferenceWrite = { bg = colors.fg_gutter, style = "bold" }, -- Deprecated
+    LspReferenceRead = { bg = colors.fg_gutter }, -- Deprecated
+    LspReferenceText = { bg = colors.fg_gutter }, -- Deprecated
+    LspReferenceWrite = { bg = colors.fg_gutter }, -- Deprecated
     LspDiagnosticsDefaultError = { fg = colors.red_err }, -- Deprecated
     LspDiagnosticsSignError = { fg = colors.red_err }, -- Deprecated
     LspDiagnosticsDefaultWarning = { fg = colors.yellow }, -- Deprecated
@@ -596,7 +596,7 @@ M.plugins = {
     ["@tag"] = { fg = colors.red_key_w },
     ["@tag.delimiter"] = { fg = colors.fg },
     ["@text"] = { fg = colors.fg },
-    ["@text.title"] = { fg = colors.white, style = "bold" },
+    ["@text.title"] = { fg = colors.fg },
     ["@type"] = { fg = colors.red_err },
     ["@type.builtin"] = { fg = colors.red_key_w },
     ["@type.definition"] = { fg = colors.pink },
