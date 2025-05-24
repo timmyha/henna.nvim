@@ -134,6 +134,8 @@ M.base = {
     WarningMsg = { fg = colors.orange_wr, bg = colors.none },
     Whitespace = { fg = colors.non_text },
     WildMenu = { fg = colors.fg, bg = colors.vsplit_bg },
+    Winbar = { fg = colors.fg, bg = colors.visual_select_bg },
+    WinbarNC = { fg = colors.fg, bg = colors.visual_select_bg },
     lCursor = { fg = colors.bg, bg = colors.pink },
 
     ["@markup.heading.1.markdown"] = { bg = colors.pink, fg = colors.fg },
