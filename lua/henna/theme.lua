@@ -114,7 +114,8 @@ M.base = {
     Structure = { fg = colors.green_func },
     Substitute = { fg = colors.gray2, bg = colors.orange },
 
-    TabLine = { fg = colors.bg },
+    TabLine = { bg = colors.bg },
+    BetterTermSymbol = { fg = colors.yellow },
     TabLineFill = { fg = colors.line_fg },
     TabLineSel = { bg = colors.red_err, fg = colors.fg },
     Tag = { fg = colors.gray_punc },
