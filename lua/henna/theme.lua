@@ -114,9 +114,9 @@ M.base = {
     Structure = { fg = colors.green_func },
     Substitute = { fg = colors.gray2, bg = colors.orange },
 
-    TabLine = { fg = colors.line_fg },
+    TabLine = { fg = colors.bg },
     TabLineFill = { fg = colors.line_fg },
-    TabLineSel = { fg = colors.fg },
+    TabLineSel = { bg = colors.red_err, fg = colors.fg },
     Tag = { fg = colors.gray_punc },
     TermCursor = { fg = colors.cursor_fg, bg = colors.cursor_bg },
     TermCursorNC = { fg = colors.cursor_fg, bg = colors.cursor_bg },
