@@ -153,7 +153,7 @@ M.base = {
     RenderMarkdownCode = { bg = colors.code },
     RenderMarkdownCodeInline = { bg = colors.code, fg = colors.yellow },
     RenderMarkdownBullet = { fg = colors.pink },
-    RenderMarkdownQuote = { fg = colors.fg, bg = colors.context },
+    RenderMarkdownQuote = { fg = colors.bg, bg = colors.fg },
     RenderMarkdownUnchecked = { fg = colors.pink },
     RenderMarkdownChecked = { fg = colors.yellow },
 
