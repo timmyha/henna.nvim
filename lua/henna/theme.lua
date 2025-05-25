@@ -144,7 +144,7 @@ M.base = {
     ["@markup.heading.4.markdown"] = { bg = "none", fg = colors.pink, style = "bold" },
     ["@markup.heading.5.markdown"] = { bg = "none", fg = colors.gray, style = "bold" },
     ["@markup.heading.6.markdown"] = { bg = "none", fg = colors.diff_change, style = "bold" },
-    ["@markup.quote"] = { fg = colors.bg, bg = colors.fg },
+    ["@markup.quote"] = { fg = colors.yellow },
     RenderMarkdownH1Bg = { fg = colors.yellow, bg = "none", style = "bold" },
     RenderMarkdownH2Bg = { fg = colors.green, bg = "none", style = "bold" },
     RenderMarkdownH3Bg = { fg = colors.orange, bg = "none", style = "bold" },
